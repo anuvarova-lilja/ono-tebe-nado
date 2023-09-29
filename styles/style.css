@@ -284,7 +284,7 @@
 }
 
 .about__text p {
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
  p:last-child {
     margin-bottom: 0;
@@ -317,7 +317,7 @@
 .footer__social-list {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;;
+    align-items: flex-end;
     list-style: none;
     width: 100%;
     gap: 45px;
