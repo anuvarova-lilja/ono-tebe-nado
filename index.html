@@ -11,21 +11,19 @@
   </head>
   <body>
     <header class="header">
-    <div>
       <nav class="header-menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link_active" style="color: black" href="#0">главная</a>
+            <a class="header__link header__link_active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" style="color: black" href="#0">посмотреть лоты</a>
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" style="color: black" href="#0">об аукционе</a>
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-    </div>
       <div class="header__logo">
         <a href="#0">
           <img
@@ -35,49 +33,53 @@
           />
         </a>
       </div>
-      <div>
-        <a class="contact" style="color: black" href="tel:+70000000">+9 999 555 5555</a><br>
-        <a class="contact" style="color: black" href="mailto:mail@example.com">info@sobaka.ge</a>
-        <address class="address header__address">
-          наб. Принсенграхт 263-265,<br>Амстердам
-        </address>
-      </div>  
+      <address class="address header_address">
+        <a class="contact" href="tel:+70000000">+9 999 555 5555</a><br>
+        <a class="contact" href="mailto:mail@example.com">info@sobaka.ge</a>
+        <p class="address">
+          наб. Принсенграхт 263-265,
+        </p>
+        <p>
+          Амстердам
+        </p>
+      </address>  
     </header>
     <main>
       <section class="cover">
         <h1 class="cover__title">
-          <span class="accent-span">он<span class="accent-letter">о</span></span>
-          <span class="accent-span text-center">теб<span class="accent-letter"></span>е</span>
-          <span class="accent-span text-right">н ад о</span>
+          <span>о<span class="accent-span">но</span></span>
+          <span class="text-center">те<span class="accent-span">бе</span></span>
+          <span class="text-right"><span class="accent-span">н</span>адо</span>
         </h1>
           <div class="cover__description">
-            <span class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил</span>
-            <button class="bet-button">Сделать ставку</button>
+            <p class="cover__description-text">Аукцион    вещей,    в    которые    никто    не     верил</p>
+            <button class="bet-button" type="button">Сделать ставку</button>
           </div>
       </section>
       <section class="lots">
-        <h3 class="lots__heading">Лоты</h3>
+        <h2 class="lots__heading">Лоты</h2>
           <ul class="lots__card-list">
             <li class="lots__card-list-item">
               <a class="card-link" href="#0">
-                <article class="card card card_type_film">
-                  <h4 class="card__title">Фильм режиссёра, который  бросил киношколу</h4>
+                <article class="card card_type_film">
+                  <h3 class="card__title">Фильм режиссёра, который  бросил киношколу</h3>
                   <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                  
                 </article>
               </a>
             </li>
             <li class="lots__card-list-item">
               <a class="card-link" href="#0">
-                <article class="card card card_type_book">
-                  <h4 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h4>
+                <article class="card card_type_book">
+                  <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                   <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                 </article>
               </a>
             </li>
             <li class="lots__card-list-item">
               <a class="card-link" href="#0">
-                <article class="card card card_type_picture">
-                  <h4 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h4>
+                <article class="card card_type_picture">
+                  <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                   <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                 </article>
               </a>
@@ -87,7 +89,7 @@
       </section>
       <section class="about">
         <div class="logo__column">
-          <div class="black-round">
+          <div class="logo-background">
           <a href="#0">
             <img
             class="about__logo-image"
@@ -107,28 +109,29 @@
       </section>
     </main>
     <footer class="footer">
-      <div>
-        <a class="contact" style="color: black" href="tel:+70000000">+9 999 555 5555</a><br>
-        <a class="contact" style="color: black" href="mailto:mail@example.com">info@sobaka.ge</a>
-        <address class="address">
-        наб. Принсенграхт 263-265,<br>Амстердам
-        </address>
-      </div>  
-    <div>
+      <address class="address">
+        <a class="contact" href="tel:+70000000">+9 999 555 5555</a><br>
+        <a class="contact" href="mailto:mail@example.com">info@sobaka.ge</a>
+        <p>
+        наб. Принсенграхт 263-265,
+        </p>
+        <p>
+          Амстердам
+        </p>
+      </address>  
       <nav class="footer-menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active" style="color: black" href="#0">главная</a>
+            <a class="footer__menu-link footer__menu-link_active" href="#0">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" style="color: black" href="#0">посмотреть лоты</a>
+            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" style="color: black" href="#0">об аукционе</a>
+            <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-    </div>
         <ul class="footer__social-list">
             <li class="footer__social-list-item">
               <a class="footer__social-link" href="#0">
